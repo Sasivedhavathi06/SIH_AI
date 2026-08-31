@@ -1,16 +1,74 @@
-# React + Vite
+# LearnAI - Personalized Learning Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## About the Project
 
-Currently, two official plugins are available:
+LearnAI is a personalized learning platform developed as a student project.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The main idea of this project is to help students understand their learning performance and improve the topics where they are weak. The platform provides different sections such as practice, performance, weakness detection, learning path, resources and profile.
 
-## React Compiler
+The learning path is created based on the student's performance in different topics. Students can check their scores and follow the recommended steps to improve their knowledge.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+- Student Login and Signup
+- Student Dashboard
+- Personalized Learning Path
+- Performance Tracking
+- Weakness Detection
+- Practice Questions
+- Learning Resources
+- Student Profile
+- Study Planner
+- Statistics
+- Leaderboard
+- AI Learning Assistant
+- Certificates
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Technologies Used
+
+### Frontend
+
+- React.js
+- JavaScript
+- HTML
+- CSS
+- Vite
+- React Router
+
+### Other
+
+- Git
+- GitHub
+- Local Storage
+
+## Project Structure
+
+```text
+learning-platform/
+│
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── data/
+│   ├── pages/
+│   │   ├── AIAssistant.jsx
+│   │   ├── Certificates.jsx
+│   │   ├── Dashboard.jsx
+│   │   ├── Leaderboard.jsx
+│   │   ├── LearningPath.jsx
+│   │   ├── Login.jsx
+│   │   ├── Performance.jsx
+│   │   ├── Practice.jsx
+│   │   ├── Profile.jsx
+│   │   ├── Resources.jsx
+│   │   ├── Signup.jsx
+│   │   ├── Statistics.jsx
+│   │   ├── StudyPlanner.jsx
+│   │   └── Weakness.jsx
+│   │
+│   └── services/
+│
+├── package.json
+├── package-lock.json
+├── vite.config.js
+└── index.html
