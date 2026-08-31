@@ -1,0 +1,44 @@
+.sidebar {
+  width: 250px;
+  min-height: 100vh;
+  background: white;
+  border-right: 1px solid #e5e7eb;
+  padding: 25px 15px;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+.logo {
+  padding: 10px 15px 30px;
+}
+
+.logo h2 {
+  color: #4f46e5;
+  font-size: 27px;
+}
+
+.logo span {
+  color: #64748b;
+  font-size: 13px;
+}
+
+.sidebar nav {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.sidebar nav a {
+  padding: 13px 15px;
+  border-radius: 9px;
+  color: #475569;
+  font-size: 15px;
+}
+
+.sidebar nav a:hover,
+.sidebar nav a.active {
+  background: #eef2ff;
+  color: #4f46e5;
+  font-weight: 600;
+}

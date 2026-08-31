@@ -1,0 +1,149 @@
+.learnai-signup-page {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  box-sizing: border-box;
+  background: #f4f6ff;
+}
+
+.learnai-signup-card {
+  width: 100%;
+  max-width: 620px;
+  background: #ffffff;
+  padding: 42px 55px;
+  border-radius: 24px;
+  box-sizing: border-box;
+  box-shadow: 0 15px 45px rgba(35, 40, 90, 0.12);
+}
+
+.learnai-signup-brand {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.learnai-signup-brand h1 {
+  margin: 0;
+  font-size: 48px;
+  font-weight: 700;
+  color: #5146e5;
+}
+
+.learnai-signup-brand p {
+  margin: 8px 0 0;
+  font-size: 19px;
+  color: #64748b;
+}
+
+.learnai-signup-heading {
+  margin-bottom: 25px;
+}
+
+.learnai-signup-heading h2 {
+  margin: 0;
+  font-size: 30px;
+  font-weight: 700;
+  color: #172033;
+}
+
+.learnai-signup-heading p {
+  margin: 6px 0 0;
+  font-size: 17px;
+  color: #64748b;
+}
+
+.learnai-signup-field {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.learnai-signup-field label {
+  display: block;
+  width: 100%;
+  margin-bottom: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #172033;
+}
+
+.learnai-signup-field input {
+  display: block;
+  width: 100%;
+  height: 52px;
+  padding: 0 16px;
+  box-sizing: border-box;
+  border: 1px solid #d1d5db;
+  border-radius: 11px;
+  background: #ffffff;
+  color: #172033;
+  font-size: 16px;
+  outline: none;
+}
+
+.learnai-signup-field input::placeholder {
+  color: #94a3b8;
+}
+
+.learnai-signup-field input:focus {
+  border-color: #5146e5;
+  box-shadow: 0 0 0 3px rgba(81, 70, 229, 0.12);
+}
+
+.learnai-signup-button {
+  display: block;
+  width: 100%;
+  height: 54px;
+  margin-top: 8px;
+  border: none;
+  border-radius: 11px;
+  background: #5146e5;
+  color: #ffffff;
+  font-size: 17px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.learnai-signup-button:hover {
+  background: #4338ca;
+}
+
+.learnai-signup-footer {
+  margin-top: 24px;
+  text-align: center;
+  font-size: 16px;
+  color: #64748b;
+}
+
+.learnai-login-link {
+  padding: 0;
+  border: none;
+  background: transparent;
+  color: #5146e5;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.learnai-login-link:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 650px) {
+  .learnai-signup-card {
+    padding: 35px 25px;
+  }
+
+  .learnai-signup-brand h1 {
+    font-size: 40px;
+  }
+
+  .learnai-signup-brand p {
+    font-size: 16px;
+  }
+
+  .learnai-signup-heading h2 {
+    font-size: 26px;
+  }
+}
